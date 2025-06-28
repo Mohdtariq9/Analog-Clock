@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: brown;
+    font-size: 10vw;
+}
+
+#container{
+    height: 35%;
+    width: 50%;
+    border-radius: 20px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clock{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media only screen and (max-width: 550px) {
+    body{
+        font-size: 13vw;
+    }
+    #container{
+        width: 65%;
+        height: 25%;
+    }
+}
